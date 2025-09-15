@@ -47,5 +47,7 @@ int main()
   }
   i == 6 ? printf("ends normaly") : printf("applied break");*/
 
-  ///////////////////////////////////switch case/////////////////////////
+  ///////////////////////////////////switch case/////////////////in
+  int choice, a, b, c;
+  while
 }
