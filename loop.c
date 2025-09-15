@@ -73,5 +73,5 @@ int main()
     break;
   default:
     printf("invalid choice");
-  }
+    }
 }
