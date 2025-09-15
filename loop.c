@@ -29,13 +29,6 @@ int main()
      x++;
    } while (x <= 100); */
 
-  int i;
-  for (i = 1; i <= 5; i++)
-  {
-    printf("dhruv gupta");
-    i++;
-  }
-
   /*int i = 1, x;
   while (i <= 5)
   {
@@ -49,5 +42,36 @@ int main()
 
   ///////////////////////////////////switch case/////////////////in
   int choice, a, b, c;
-  while
+
+  printf("\n1. Addition");
+  printf("\n2. odd-even");
+  printf("\n4. exit");
+  printf("enter yours choice");
+  scanf("%d", &choice);
+  switch (choice)
+  {
+  case 1:
+
+    printf("enter two number");
+    scanf("%d", &a);
+    scanf("%d", &b);
+    printf("sum of %d and %d is %d", a, b, a + b);
+    break;
+  case 2:
+    printf("enter a number");
+    scanf("%d", &a);
+    if (a % 2 == 0)
+      printf("even number");
+    else
+      printf("odd number ");
+    break;
+  case 3:
+    printf("enter a number");
+    scanf("%d", &a);
+    for (b = 1; b <= a; b++)
+      printf("%d", b);
+    break;
+  default:
+    printf("invalid choice");
+  }
 }
