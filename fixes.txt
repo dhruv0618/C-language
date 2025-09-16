@@ -1,3 +1,0 @@
-I am a bug fix file which is be  used to fix the bug.
-
-fixed
