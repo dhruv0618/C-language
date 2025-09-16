@@ -2,4 +2,5 @@ I am a fix file which will be used to fix the bug.
  
  fixed another bug.
  One more bug detected and fixed.
- Fourth bug fixed.
+ Fourth bug fixed.'
+ 2025 footer note.
