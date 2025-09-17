@@ -1,2 +1,3 @@
 Another merketing message section added to demo file.
-Another bug fix.
+Another bug fixed
+Another fix message for pink mode.
