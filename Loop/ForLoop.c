@@ -18,8 +18,13 @@ int main()
      }
      printf("End"); */
 
+    /* int i, j;
+     for (i = 1, j = 0; i = 5, j < 3; i++, j++)
+     {
+         printf("%d,%d ", i, j);
+     }*/
     int i, j;
-    for (i = 1, j = 0; i = 5, j < 3; i++, j++)
+    for (i = 1, j = 0; i <= 100 || i < 3; i++, j++)
     {
         printf("%d,%d ", i, j);
     }
