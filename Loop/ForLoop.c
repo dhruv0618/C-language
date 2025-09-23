@@ -23,9 +23,16 @@ int main()
      {
          printf("%d,%d ", i, j);
      }*/
-    int i, j;
-    for (i = 1, j = 0; i <= 100 || i < 3; i++, j++)
+    /* int i, j;
+     for (i = 1, j = 0; i <= 100 || i < 3; i++, j++)
+     {
+         printf("%d,%d ", i, j);
+     } */
+
+    int i = 1;
+    for (; i <= 5;)
     {
-        printf("%d,%d ", i, j);
+        printf("%d", i); // Infinite Loop. ,because no condition to increment i .
     }
+    return 0;
 }
