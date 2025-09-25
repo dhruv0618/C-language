@@ -29,10 +29,19 @@ int main()
          printf("%d,%d ", i, j);
      } */
 
-    int i = 1;
-    for (; i <= 5;)
+    /*  int i = 1;
+      for (; i <= 5;)
+      {
+          printf("%d", i); // Infinite Loop. ,because no condition to increment i .
+      } */
+
+    int number, i, a;
+    printf("Inter a number");
+    scanf("%d", &number);
+    for (i = 1; i <= 10; i++)
     {
-        printf("%d", i); // Infinite Loop. ,because no condition to increment i .
+        a = number * i;
+        printf("%d\n ", a);
     }
     return 0;
 }
