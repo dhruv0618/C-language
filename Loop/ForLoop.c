@@ -35,13 +35,38 @@ int main()
           printf("%d", i); // Infinite Loop. ,because no condition to increment i .
       } */
 
-    int number, i, a;
-    printf("Inter a number");
-    scanf("%d", &number);
-    for (i = 1; i <= 10; i++)
+    /*  int number, i, a;
+      printf("Inter a number");
+      scanf("%d", &number);
+      for (i = 1; i <= 10; i++)
+      {
+          a = number * i;
+          printf("%d\n ", a);
+      }
+      return 0; */
+
+    /*
+  int number, i;
+  printf("Inter a number");
+  scanf("%d", i);
+  for (; i % 2; i++)
+  {
+      printf("square of %d is %d", i); */
+
+    int num, i;
+    printf("Enter a number :");
+    scanf("%d", &num);
+    for (i = 1; i <= num; i++)
     {
-        a = number * i;
-        printf("%d\n ", a);
+        if (i * i == num)
+        {
+            printf("Square  root of %d" = % d / n, num, i);
+            break;
+        }
+    }
+    if (i > num)
+    {
+        printf("%d is not a perfect square/n", num);
     }
     return 0;
 }
