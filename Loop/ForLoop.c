@@ -69,4 +69,12 @@ int main()
             printf("%d is not a perfect square/n", num);
         }
         return 0; */
+
+    int i, j, k;
+    for (i = 1, j = 0, k = 3; i <= 5 && j <= 6 && k > 1; i++, j++, k++)
+    {
+        printf("%d ,%d ,%d\n", i, j, k);
+    }
+    printf("\n");
+    return 0;
 }
