@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{ /*
     int number, i, a;
     printf("Enter a number =  ");
     scanf("%d", &number);
@@ -8,6 +8,6 @@ int main()
     {
         a = i * number;
         printf("%d\n", a);
-    }
+    */
     return 0;
 }
