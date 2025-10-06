@@ -2,7 +2,7 @@
 int main()
 {
     int i = 1; // initialization
-    while (i <= 10)
+    while (i <= 100)
     {
         printf("%d\n", i); // condition
         i++;               // modification
